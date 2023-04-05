@@ -1,0 +1,351 @@
+.navig{
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    margin-left: 300px;
+    
+}
+
+nav ul li{
+display: inline-block;
+margin-left:50px;
+text-align: center;
+}
+#catalogbtn{
+    padding: 5px 20px;
+    margin-right: 10%;
+    margin-left: -70%;
+    color: white;
+    border-radius: 5px;
+    background-color: grey;
+    font-size: large;
+    font-weight: bold;
+    
+}
+button{
+    border-radius: 5px;
+    background-color: #E70062;
+}
+.new{
+    border-radius: 5px;
+    background-color: #FFD600;
+}
+#searchbtn{
+    padding: 5px 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+    border-radius: 6px;
+}
+.brickHouse{
+    color: white;
+    display: flex;
+    background-color: #FFD600;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.black{
+    display: flex;
+    
+   /* justify-content: space-between;*/
+    background-color: #0a0808;
+    margin-bottom: x;
+}
+
+#home{
+    color: white;
+    padding: 25px;
+}
+#starWar{
+    margin-left: 300%;
+}
+.checksAndPics{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2%;
+    
+}
+.checks{
+    border: solid whitesmoke 4px;
+    
+    padding: 25px;
+    text-align: left;
+    border-radius: 10px;
+}
+.pics1{
+    display: flex;
+    margin-top: 2%;
+    
+}
+#pica{
+}
+
+.pics2{
+    margin-top: 5%;
+    justify-content: space-between;
+    display: flex;
+}
+.pics3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 28%;
+    margin-right: 4px;
+}
+.btnsLast{
+    margin: 2% 35%;
+}
+#btnL{
+    border-radius: 25px;
+    padding: 10px;
+    background-color: beige;
+}
+#seeMoreButton{
+    background-color: #FFD600;
+    color: white;
+    border: solid #FFD600 4px;
+    border-radius: 5px;
+    padding: 1% 5%;
+    text-align: center;
+    margin: 1% 40%;
+
+}
+#btnL1{
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #FFD600;
+}
+
+.Last{
+    display: flex;
+    color: white;
+    padding: 1% 1%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #26004c;
+    margin: 0% 0%;
+}
+.LastL{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #26004c;
+    margin: 0% 0%;
+    padding-right: 37%;
+    padding-left: 1%;
+}
+
+
+
+    
+    @media (max-width:1280px){
+        .midSection{
+            margin-right: 50%;
+        }
+        .Last{
+            margin-right: 15%;
+            width: 100%;
+       
+        }
+        .LastL{
+        margin-right: 15%;
+        width: 100%;
+        }
+        .pics1{
+            margin-right: 15%
+                   
+        }
+        .pics2{
+            margin-right: 15%
+    
+        }
+        img{
+           width: 50%;
+        }
+        .black{
+            margin-right: 13%
+    
+        }
+        .brickHouse{
+            margin-right: 13%
+    
+        }
+        .btnsLast{
+            margin-right: 50%
+    
+        
+        }
+        #seeMoreButton{
+            margin-right: 13%
+    
+        }
+    }
+    @media (max-width:1024px){
+        .navig{
+            margin-right: 3%;
+            
+
+        }
+        .midSection{
+            margin-right: 35%;
+        }
+        .Last{
+            margin-right: 15%;
+            width: 96%;
+       
+        }
+        .LastL{
+        margin-right: 70%;
+        width: 60%;
+        }
+        .pics1{
+            margin-right: 15%
+                   
+        }
+        .pics2{
+            margin-right: 15%
+    
+        }
+        img{
+           width: 50%;
+        }
+        .black{
+            margin-right: 1%
+    
+        }
+        .brickHouse{
+            margin-right: 1%
+    
+        }
+        .btnsLast{
+            margin-right: 50%
+    
+        
+        }
+        #seeMoreButton{
+            margin-right: 20%
+    
+        }
+    }
+
+
+    @media (max-width:412px){
+        .navig{
+            display: flex;
+            width: 10%;
+            margin-right: 3%;
+            
+
+        }
+        .midSection{
+            margin-right: 35%;
+        }
+        .Last{
+            margin-right: 15%;
+            width: 96%;
+       
+        }
+        .LastL{
+        margin-right: 70%;
+        width: 60%;
+        }
+        .pics1{
+            margin-right: 15%
+                   
+        }
+        .pics2{
+            margin-right: 15%
+    
+        }
+        img{
+           width: 50%;
+        }
+        .black{
+            margin-right: 1%
+    
+        }
+        .brickHouse{
+            margin-right: 1%
+    
+        }
+        .btnsLast{
+            margin-right: 50%
+    
+        
+        }
+        #seeMoreButton{
+            margin-right: 20%
+    
+        }
+    }
+
+    /*@media (min-width:390px){
+        p{
+            font-size: 8px;
+        }
+        .midSection{
+            width: 8%;
+            margin-right: 100%;
+        }
+        .Last{
+            width: 100%;
+            margin-right: 15%;
+            padding-left: 1%;
+       
+        }
+        .LastL{
+            width: 64%;
+            padding-left: 1%;
+        margin-right: 15%;
+        }
+        .pics1{
+            width: 5%;
+            margin-right: 15%
+    
+                   
+        }
+        .pics2{
+            margin-right: 1%;
+            width: 1%;
+    
+        }
+        img{
+           width: 50%;
+        }
+        .black{
+        width: 100%;
+    
+        }
+        .brickHouse{
+            margin-right: 0%
+    
+        }
+        .btnsLast{
+            margin-left: -20%;
+            width: 10%;    
+        
+        }
+        #seeMoreButton{
+            margin-left: 30%;
+    
+        }
+    }
+
+
+/*@media (max-width: 767px){
+.try{
+    
+font-size: 14px;
+
+}
+.navig {
+    padding: 5rem 0;
+}
+}
+    
+

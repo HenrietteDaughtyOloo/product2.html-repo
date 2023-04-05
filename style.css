@@ -1,0 +1,207 @@
+  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 25%;
+    color: gray;
+    text-align: center;
+    
+}
+.whole{
+   /* margin: 0.5%;*/
+}
+li{
+        list-style-type: none;
+        font-size: large;
+        padding: 0px 105px;
+        text-decoration: solid;
+        text-decoration: none;
+        margin-left: 50%;
+}
+
+#Img1{
+width: 800px;
+height: min-content;
+border-radius: 10px;
+margin-top: -700px;
+opacity: 0.8;
+
+}
+#btna{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: yellow;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+
+#part1{
+    display:flex;
+    border: solid 2px yellow;
+    border-radius: 4px;
+    background-color: yellow;
+    justify-content: space-between;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+}
+#instructor{
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: solid 2px gray;
+    background-color: white;
+    font-weight: bolder;
+    border-width: 100%;
+    height: max-content;
+    font-size:smaller;
+    padding-left: 5px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+#searchbtn{
+    margin-right: 450px;
+    margin-top: 25px;
+    padding-right: 200px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+#secPic{
+    border: 2px solid;
+    border-color:white;
+    background-color: whitesmoke;
+    width: 240px;
+}
+#rings{
+    margin-bottom: 1%;
+    font-weight: bolder;
+    padding: 10px,0px, 0px, 6px;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    
+}
+#btn1{
+    padding: 0px, 150px;
+    margin-left: 5%;
+    color: white;
+    background-color: orange;
+    border: solid orange 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+}
+#btn12{
+    padding: 0px, 200px;
+    margin-left: 5%;
+    color: black;
+    background-color:white;
+    border: solid gray ;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+}
+#btn0{
+    border: solid gray 2px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 4%;
+   /* margin-bottom: 10%;*/
+
+}
+#inbutton{
+    border-radius: 20px;
+    background-color: yellow;
+    color: white;
+}
+.btn4{
+    border: solid gray 2px;
+    border-radius: 4px; 
+    margin-top: 25px;
+    padding-right: 2px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.heading2{
+    text-align: center;
+    margin: 4% 35%;
+    color:black;
+}
+.viewed{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    padding-right: 10px;
+}
+#twentyFive{
+    border: solid 4px #E70062;
+    background-color:#E70062;
+    padding: 5px;
+    border-radius: 15px;}
+.lego1{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+#get{
+    display: flex;
+    justify-content: space-between;
+    border: solid yellow 4px;
+    background-color: yellow;
+}
+#btn2{
+    padding: 0px, 100px;
+    margin-left: 45%;
+    color: white;
+    background-color: orange;
+    border: solid orange 25px;
+    border-radius: 5px;
+}
+#btn5{
+    color: white;
+    background-color: red;
+    padding: 6px;
+    border-radius: 4px;
+    margin-left: -2%;
+
+}
+#btn6{
+    color: black;
+    background-color:white;
+    padding: 6px;
+    padding-right: 100px;
+    border-radius: 4px;
+    margin-left: -110%;
+}
+
+.Last{
+    display: flex;
+    color: white;
+    padding: 1% 1%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #26004c;
+    margin: 0% 0%;
+}
+.LastL{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #26004c;
+    margin: 0% 0%;
+    padding-right: 35%;
+    padding-left: 1%;
+}
+
+@media screen{(max-width:767px)
+    
+}
+
+
