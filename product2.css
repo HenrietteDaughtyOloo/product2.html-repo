@@ -40,6 +40,8 @@
     padding-right: 5px;
 }
 
+
+
 #btn12{
     padding: 0px, 200px;
     margin-left: 0%;
@@ -149,3 +151,190 @@
     padding-right: 35%;
     padding-left: 1%;
 }
+@media screen and (max-width: 810px){
+    .orders{
+        display: grid;
+    }
+    .order1{
+        display: grid;
+        font-size: smaller;
+    }
+    .Last{
+        display: grid;
+        width: 60%;
+    }
+    .LastL{
+        display: grid;
+        width: 26%;
+    }
+    .nav{
+        display: grid;
+        margin:10%;
+    }
+    #part1{
+        display: grid;
+        width: 60%;
+    }
+    #searchbtn{
+
+        width: 30%;
+    }
+    #word1{
+        display: grid;
+
+    }
+    #word2b{
+
+    }
+    #img11{
+        width: 50%;
+    }
+    
+    .img2{
+        display: grid;
+    }
+    #centered{
+        font-size: smaller;
+        text-align: start;
+    }
+    #instructor{
+        margin: 0;
+        width: 50%;
+    }
+    #btn12{
+        width: 60%;
+        font-size: small;
+        font-weight: bold;
+    }
+    #btn1{
+        width: 50%;
+        font-size: small;
+    }
+    .inImg{
+        display: grid;
+    }
+    #word2{
+        margin: 0%;
+        
+    }
+    #word21{
+        margin: 0%;
+        
+        
+    }
+    #btn2b{
+        margin: 3%;
+        width: 50%;
+    }
+    #img1{
+        size: 10%;
+    }
+    #worda{
+        margin: 0%;
+        
+    }
+}
+ 
+@media screen and (max-width: 1280px){
+    .orders{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+    }
+    .order1{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+        font-size: large;
+    }
+    .Last{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+        width: 98%;
+    }
+    .LastL{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+        width: 64%;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+
+        margin: 3% 15%;
+    }
+    #part1{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 1% 0%;
+
+        width: 100%;
+    }
+    #searchbtn{
+
+        width: 100%;
+        text-align: center;
+    }
+    #word1{
+        display: grid;
+
+    }
+    #word2b{
+
+    }
+    #img11{
+        width: 100%;
+    }
+    
+    .img2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+    }
+    #centered{
+        font-size: large;
+        text-align: center;
+    }
+    #instructor{
+        margin: 25% 5%;
+        width: 100%;
+    }
+    #btn12{
+        font-size: small;
+        font-weight: bold;
+    }
+    #btn1{
+        width: 100%;
+        font-size: small;
+    }
+    .inImg{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0%;
+    }
+    #word2{
+        margin: 0%;
+        
+    }
+    #word21{
+        margin: 0%;
+        
+        
+    }
+    #btn2b{
+        margin: 3%;
+        width: 10%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 45%;
+    }
+    #img1{
+        size: 100%;
+    }
+    #worda{
+        margin: 0%;
+        
+    }
+}
+ 

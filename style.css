@@ -144,6 +144,7 @@ opacity: 0.8;
     border-radius: 15px;}
 .lego1{
     display: flex;
+    width: 40%;
     justify-content: space-between;
 }
 p{
@@ -200,8 +201,78 @@ p{
     padding-left: 1%;
 }
 
-@media screen{(max-width:767px)
+/*@media screen{(max-width:767px)*/
     
+
+  @media screen and (max-width: 810px){
+    .orders{
+        display: grid;
+    }
+    .Last{
+        display: grid;
+    }
+    .LastL{
+        display: grid;
+    }
+    .nav{
+        display: grid;
+    }
+    #part1{
+        display: grid;
+        width: 68%;
+    }
+    #searchbtn{
+        width: 30%;
+    }
+    .part2{
+        display: grid;
+    }
+    #word1{
+        display: grid;
+    }
+    .img2{
+        display: grid;
+    }
+    #Img1{
+        width: 52%;
+        margin: 3%;
+    }
+    #rings{
+        width: 30%;
+    }
+    #instructor{
+        font-size: small;
+        margin: 3%;
+        width: 50%;
+    }
+    #btn12{
+        width: 50%;
+        font-size: small;
+        font-weight: bold;
+    }
+    #btn1{
+        width: 50%;
+        font-size: small;
+    }
+    .viewed{
+        display: grid;
+    }
+    .lego1{
+        display: grid;
+    }
+    .get{
+        width: 30%;
+    }
+    #btn2{
+        margin: 0%;
+    }
+    #twentyFive{
+        width: 20%;
+    }
+    .heading2{
+        margin: 0%;
+        margin-left: 0%;
+    }
 }
 
 
