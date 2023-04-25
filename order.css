@@ -1,5 +1,5 @@
 .whole{
-    
+    width: 100%;
 }
 #part1{
     display:flex;
@@ -45,13 +45,24 @@
     height: 40px;
     border-radius: 5px;
 }
-#btn12-{
+#btn12{
+    padding: 0px, 200px;
+    margin-left: 5%;
+    color: green;
+    background-color:white;
+    border: solid green ;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#btn12a{
     padding: 0px, 200px;
     margin-left: 5%;
     color: black;
     background-color:white;
     border: solid gray 2px;
-    width: 250px;
+    width: 90%;
     height: 40px;
     border-radius: 5px;
 }
@@ -104,3 +115,235 @@
    /* border: solid 1px black;
     border-radius: 10px;*/
 }
+
+
+
+@media screen and (max-width:767px){
+    
+
+.whole{
+    display: block;
+
+}
+
+
+#part1{
+    display:block;
+    width: 100%;
+    
+}
+.part2{
+    display: block;
+    justify-content: space-between;
+    margin: 1%;
+
+
+}
+#part4{
+    display: block;
+    justify-content: space-between;
+    margin-left: 0%;
+}
+#btn1{
+    padding: 0px, 150px;
+    margin-left: 5%;
+    color: white;
+    background-color: #ffd600;
+    border: solid #ffd600 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn4{
+    padding: -30px;
+    margin-right: 10%;
+    border: none;
+}
+#btn12{
+    padding: 0px, 200px;
+    margin-left: 5%;
+    color: green;
+    background-color:white;
+    border: solid green ;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+#btn12-{
+    padding: 0px, 200px;
+    margin-left: 5%;
+    color: black;
+    background-color:white;
+    border: solid gray 2px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+#instructor{
+    margin-right: 10%;
+    display: block;
+    justify-content: space-between;
+}
+#heading1{
+    margin-top: -4%;
+    margin: 1%;
+
+}
+.down{
+    margin: 1%;
+
+    display: grid;
+    grid-template-columns: auto;
+ /*   justify-content: space-between;*/
+ margin-right: 3%;
+ font-size: 12px;
+ 
+}
+.down2{
+ margin: 1%;
+
+
+}
+#cash{
+ display: grid;
+ margin: 1%;
+
+ grid-template-columns: auto auto auto;
+/*   justify-content: space-between;*/
+ margin-right: 3%;
+
+}
+#btn12{
+    width: 100%;
+}
+#btn1{
+    width: 100%;
+}
+#heading1{
+    font-size: large;
+}
+#btn12-{
+    width: 100%;
+}
+#but{
+/* border: solid 1px black;
+ border-radius: 10px;*/
+}
+}
+
+@media screen and (max-width:412px){
+    
+
+    .whole{
+        display: block;
+    
+    }
+    
+    
+    #part1{
+        display:block;
+        width: 100%;
+        
+    }
+    .part2{
+        display: block;
+        justify-content: space-between;
+        margin: 1%;
+    
+    
+    }
+    #part4{
+        display: block;
+        justify-content: space-between;
+        margin-left: 0%;
+    }
+    #btn1{
+        padding: 0px, 150px;
+        margin-left: 5%;
+        color: white;
+        background-color: #ffd600;
+        border: solid #ffd600 5px;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .btn4{
+        padding: -30px;
+        margin-right: 10%;
+        border: none;
+    }
+    #btn12{
+        padding: 0px, 200px;
+        margin-left: 5%;
+        color: green;
+        background-color:white;
+        border: solid green ;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    #btn12-{
+        padding: 0px, 200px;
+        margin-left: 5%;
+        color: black;
+        background-color:white;
+        border: solid gray 2px;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    
+    #instructor{
+        margin-right: 10%;
+        display: block;
+        justify-content: space-between;
+    }
+    #heading1{
+        margin-top: -4%;
+        margin: 1%;
+    
+    }
+    .down{
+        margin: 1%;
+    
+        display: grid;
+        grid-template-columns: auto;
+     /*   justify-content: space-between;*/
+     margin-right: 3%;
+     font-size: 12px;
+     
+    }
+    .down2{
+     margin: 1%;
+    
+    
+    }
+    #cash{
+     display: grid;
+     margin: 1%;
+    
+     grid-template-columns: auto auto auto;
+    /*   justify-content: space-between;*/
+     margin-right: 3%;
+    
+    }
+    #btn12{
+        width: 100%;
+    }
+    #btn1{
+        width: 100%;
+    }
+    #heading1{
+        font-size: large;
+    }
+    #btn12-{
+        width: 100%;
+    }
+    #but{
+    /* border: solid 1px black;
+     border-radius: 10px;*/
+    }
+    }
