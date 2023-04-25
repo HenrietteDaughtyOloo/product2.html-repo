@@ -159,6 +159,17 @@
     margin-right: 10%;
     border: none;
 }
+#btn12a{
+    padding: 0px, 200px;
+    margin-left: 5%;
+    color: black;
+    background-color:white;
+    border: solid gray 2px;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+}
+
 #btn12{
     padding: 0px, 200px;
     margin-left: 5%;
@@ -294,6 +305,17 @@
         height: 40px;
         border-radius: 5px;
     }
+    #btn12a{
+        padding: 0px, 200px;
+        margin-left: 5%;
+        color: black;
+        background-color:white;
+        border: solid gray 2px;
+        width: 50%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
     
     
     #instructor{
